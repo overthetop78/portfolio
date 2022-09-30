@@ -1,0 +1,56 @@
+div.theme {
+    height: 100vh;
+    width: 100vw;
+    background-color: darkseagreen;
+}
+
+div.intro {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100vw;
+    background-color: darkseagreen;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+
+div.intro h1 {
+    font-size: 2em;
+    font-weight: 600;
+    width: 100vw;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    margin: 10px 20px;
+}
+
+div.intro h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    width: 100vw;
+    color: #000;
+    text-shadow: 0 0 10px #fff;
+    text-decoration: underline;
+    margin: 10px 20px;
+}
+
+div.texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    min-width: 80%;
+    width: auto;
+    margin: 20px 50px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+div.intro p {
+    text-align: justify;
+    font-size: 1em;
+    font-weight: 400;
+    width: 80vw;
+    color: #000;
+    margin: 10px 50px;
+}
