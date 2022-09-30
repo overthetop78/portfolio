@@ -1,0 +1,104 @@
+div.theme {
+    height: 100vh;
+    width: 100vw;
+    background-color: darkseagreen;
+}
+div.intro {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100vw;
+    background-color: darkseagreen;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+
+div.intro-titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    padding: 10px 10px;
+    margin: 0px 50px;
+}
+div.intro-titre h1 {
+    font-size: 3em;
+    font-weight: 700;
+    width: 100vw;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+div.intro-titre h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    width: 100vw;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+div.intro-texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    min-width: 80%;
+    width: auto;
+    margin: 20px 50px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+div.intro-texte p {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #000;
+}
+
+
+div.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+div.social img {
+    height: 50px;
+    width: auto;
+    margin: 10px 10px;
+}
+
+div.avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    align-items: top;
+    align-content: center;
+    height: auto;
+    width: auto;
+    background-color: darkseagreen;
+    padding: 50px 50px;
+}
+
+img.photoProfil3D {
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+    margin: 20px 20px;
+}
+
+div.social a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div.social a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
