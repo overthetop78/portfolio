@@ -14,93 +14,89 @@ div.intro {
     padding: 10px 10px;
 }
 
-div.intro-titre {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 50%;
-    padding: 10px 10px;
-    margin: 0px 50px;
+mat-card.card {
+    width: 80%;
+    margin: 20px auto;
+    background-color: seagreen;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-div.intro-titre h1 {
+mat-card.card mat-card-title {
     font-size: 3em;
     font-weight: 700;
-    width: 100vw;
     color: #fff;
     text-shadow: 0 0 10px #000;
 }
 
-div.intro-titre h2 {
+mat-card.card mat-card-subtitle {
     font-size: 1.5em;
     font-weight: 400;
-    width: 100vw;
     color: #fff;
     text-shadow: 0 0 10px #000;
 }
 
-div.intro-texte {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    min-width: 80%;
-    width: auto;
-    margin: 20px 50px;
-    padding: 10px 10px;
-    background-color: #fff;
-    border-radius: 10px;
+mat-card.card img {
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-div.intro-texte p {
-    font-size: 0.8em;
+mat-card.texte {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+}
+
+mat-card.texte p {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+}
+
+mat-card.texte mat-card-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: seagreen;
+    text-shadow: 0 0 10px darkseagreen;
+}
+
+mat-card.texte mat-card-subtitle {
+    font-size: 1.5em;
     font-weight: 500;
-    color: #000;
+    color: seagreen;
+    text-shadow: 0 0 10px darkseagreen;
+    margin: 20px auto;
 }
 
+mat-card.texte mat-chip {
+    background-color: mediumseagreen;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    color: white;
 
-div.social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
 }
 
-div.social img {
-    height: 50px;
-    width: auto;
-    margin: 10px 10px;
-}
-
-div.avatar {
-    display: flex;
-    flex-direction: row;
-    justify-content: top;
-    align-items: top;
-    align-content: center;
-    height: auto;
-    width: auto;
-    background-color: darkseagreen;
-    padding: 50px 50px;
-}
-
-img.photoProfil3D {
-    width: 300px;
-    height: auto;
-    border-radius: 50px;
-    margin: 20px 20px;
-}
-
-div.social a {
+mat-card.texte a {
     text-decoration: none;
     color: #fff;
+    margin: 0 10px;
 }
 
-div.social a:hover {
+mat-card.texte a:hover {
     text-decoration: none;
     color: #fff;
-    background-color: lightgreen;
     border-radius: 10px;
+}
+
+mat-card.texte a img {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+mat-card.texte a img:hover {
+    background-color: darkseagreen;
+    box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.8);
 }
