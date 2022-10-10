@@ -12,10 +12,19 @@ navLinks= [
   {path: 'projects', label: 'Projets', link: 'projects'},
   {path: 'contact', label: 'Contact', link: 'contact'},
 ];
+  mobile: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.isMobile()
   }
 
+  isMobile() {
+    if (window.innerWidth < 768) {
+      this.mobile = true;
+    } else {
+      this.mobile = false;
+    }
+  }
 }

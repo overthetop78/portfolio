@@ -1,21 +1,22 @@
 div.theme {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: auto;
     background-color: darkseagreen;
+    overflow: hidden;
 }
 
 div.intro {
     display: flex;
     flex-direction: row;
     height: auto;
-    width: 100vw;
+    width: auto;
     background-color: darkseagreen;
     flex-wrap: wrap;
     padding: 10px 10px;
 }
 
 mat-card.card {
-    width: 80%;
+    width: 800px;
     margin: 20px auto;
     background-color: seagreen;
     color: white;
@@ -27,14 +28,14 @@ mat-card.card mat-card-title {
     font-size: 3em;
     font-weight: 700;
     color: #fff;
-    text-shadow: 0 0 10px #000;
+    text-shadow: 1px 1px 1px #000;
 }
 
 mat-card.card mat-card-subtitle {
     font-size: 1.5em;
     font-weight: 400;
     color: #fff;
-    text-shadow: 0 0 10px #000;
+    text-shadow: 1px 1px 1px #000;
 }
 
 mat-card.card img {
@@ -61,14 +62,14 @@ mat-card.texte mat-card-title {
     font-size: 2.5em;
     font-weight: 700;
     color: seagreen;
-    text-shadow: 0 0 10px darkseagreen;
+    text-shadow: 1px 1px 1px darkseagreen;
 }
 
 mat-card.texte mat-card-subtitle {
     font-size: 1.5em;
     font-weight: 500;
     color: seagreen;
-    text-shadow: 0 0 10px darkseagreen;
+    text-shadow: 1px 1px 1px darkseagreen;
     margin: 20px auto;
 }
 

@@ -4,11 +4,11 @@
             <mat-card-title-group>
                 <mat-card-title>Truche Gaël</mat-card-title>
                 <mat-card-subtitle>Full Stack Developer</mat-card-subtitle>
-                <img mat-card-lg-image src="assets/img/PhotoProfil3D.png">
+                <img mat-card-image src="assets/img/PhotoProfil3D.png">
             </mat-card-title-group>
             <mat-card-content>
                 <mat-card class="texte">
-                    <mat-card-content>
+                    <mat-card-content id="objective">
                         <p>
                             Actuellement en 3ème année de Licence Professionnelle Développement Web et Application à
                             L'UHA 4.0
@@ -22,9 +22,6 @@
                         <p>
                             Je recherche aussi à la suite de mon stage un contrat de professionnalisation pour effectuer
                             un Master.
-                        </p>
-                        <p>
-                            Le cas échéant je suis ouvert à toute proposition.
                         </p>
                     </mat-card-content>
                 </mat-card>
@@ -96,6 +93,17 @@
                         <a href="https://github.com/overthetop78" target="_blank">
                             <img mat-card-sm-image src="assets/img/github.png" />
                         </a>
+                    </mat-card-content>
+                </mat-card>
+                <mat-card class="texte">
+                    <mat-card-header>
+                        <mat-card-title>Curriculum Vitae</mat-card-title>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <button mat-raised-button color="warn" (click)="SavePDF()">  
+                            <mat-icon>save_alt</mat-icon>
+                            Télécharger le CV
+                        </button>
                     </mat-card-content>
                 </mat-card>
             </mat-card-content>
