@@ -18,6 +18,7 @@ div.intro {
 mat-card.card {
     width: 800px;
     margin: 20px auto;
+    text-align: justify;
     background-color: seagreen;
     color: white;
     border-radius: 5px;
@@ -56,6 +57,12 @@ mat-card.texte p {
     font-size: 1em;
     font-weight: 400;
     color: black;
+}
+
+mat-card.texte span {
+    font-size: 1em;
+    font-weight: 700;
+    color: darkgreen;
 }
 
 mat-card.texte mat-card-title {
